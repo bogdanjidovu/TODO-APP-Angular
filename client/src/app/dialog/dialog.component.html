@@ -1,0 +1,41 @@
+<h1 mat-dialog-title>Add product Form</h1>
+<div mat-dialog-content>
+  <form [formGroup]="taskForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Task</mat-label>
+      <input formControlName="taskName" matInput placeholder="Task" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Category</mat-label>
+      <mat-select formControlName="category" placeholder="Category">
+        <mat-option *ngFor="let category of taskCategory" [value]="category">{{
+          category
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Deadline</mat-label>
+      <input formControlName="date" matInput [matDatepicker]="picker" />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker">
+        <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+      </mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Comment</mat-label>
+      <textarea formControlName="comment" matInput></textarea>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+  <button mat-raised-button color="primary" mat-dialog-close>Close</button>
+  <button
+    style="margin-left: 4px"
+    mat-raised-button
+    color="primary"
+    (click)="addTask()"
+  >
+    {{ actionBtn }}
+  </button>
+</div>

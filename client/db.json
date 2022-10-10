@@ -1,0 +1,36 @@
+{
+  "taskList": [
+    {
+      "taskName": "Pizza",
+      "category": "Todo",
+      "comment": "ava",
+      "date": "2022-10-09T21:00:00.000Z",
+      "id": 3,
+      "isDone": true
+    },
+    {
+      "taskName": "Clatite",
+      "category": "Todo",
+      "comment": "azi",
+      "date": "2022-10-12T21:00:00.000Z",
+      "id": 4
+    },
+    {
+      "taskName": "ava",
+      "category": "Grocery list",
+      "comment": "ava",
+      "date": null,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
