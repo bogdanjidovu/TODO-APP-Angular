@@ -13,12 +13,12 @@ After searching for grocery list
 
 ## Start application
 
-From terminal:
- cd client
- ng serve -o
+From terminal:  
+$ cd client  
+$ ng serve -o  
 
 ## Start server
 
-From terminal:
- cd server
- json-server --watch db.json
+From terminal:  
+$ cd server  
+$ json-server --watch db.json  
