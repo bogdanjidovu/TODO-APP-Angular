@@ -5,8 +5,10 @@ This app was built in order to learn Angular basics and to compare 2 apps with s
 
 ## Project screenshots
 
+After adding some tasks
 ![After adding some tasks](/client/images/ReadmePhoto1.jpg?raw=true "App interface")
 
+After searching for grocery list
 ![After searching for grocery list](/client/images/ReadmePhoto2.jpg?raw=true)
 
 ## Start application
