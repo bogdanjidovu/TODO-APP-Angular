@@ -4,9 +4,9 @@ A "To Do" application used to store daily todo lists, grocery lists or ideas. Th
 
 ## Project screenshots
 
-![After adding some tasks](/TODO-App-Angular/client/images/ReadmePhoto1.png "App interface")
+![After adding some tasks](/TODO-App-Angular/client/images/ReadmePhoto1.jpg?raw=true "App interface")
 
-![After searching for grocery list](/TODO-App-Angular/client/images/ReadmePhoto2.png "Simple search in todo list")
+![After searching for grocery list](/TODO-App-Angular/client/images/ReadmePhoto2.jpg?raw=true)
 
 ## Start application
 
