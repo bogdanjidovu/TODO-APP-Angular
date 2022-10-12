@@ -1,11 +1,19 @@
-# TODO-APP-Angular
+# TODO App - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+A "To Do" application used to store daily todo lists, grocery lists or ideas. This app was built in order to learn Angular basics and to compare 2 apps with same usage but developed in different frontend frameworks (Angular vs React), because I also built a "To Do" app in React.
+
+## Project screenshots
+
+![After adding some tasks](/TODO-App-Angular/client/images/ReadmePhoto1.png "App interface")
+
+![After searching for grocery list](/TODO-App-Angular/client/images/ReadmePhoto2.png "Simple search in todo list")
 
 ## Start application
 
-ng server -o
+$ cd client
+$ ng serve -o
 
 ## Start server
 
-json-server --watch db.json
+$ cd server
+$ json-server --watch db.json
